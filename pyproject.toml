@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "arxiv>=2.4.0",
+    "bs4>=0.0.2",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.0",
     "langgraph>=1.0.7",
     "langsmith>=0.6.9",
     "pandas>=3.0.0",
     "pydantic>=2.12.5",
+    "pymupdf>=1.26.7",
+    "pypdf>=6.7.0",
     "python-dotenv>=1.2.1",
 ]
